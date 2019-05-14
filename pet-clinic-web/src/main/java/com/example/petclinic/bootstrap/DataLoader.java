@@ -36,18 +36,18 @@ public class DataLoader implements CommandLineRunner {
         System.out.println("Loaded owners..........");
 
         Vet vet1 = new Vet();
-        vet1.setFirstname("Kunda");
-        vet1.setLastname("Rozjebana");
+        vet1.setFirstname("Bozena");
+        vet1.setLastname("Kozata");
 
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
-        vet2.setFirstname("Kokot");
-        vet2.setLastname("Povednuty");
+        vet2.setFirstname("John");
+        vet2.setLastname("Snow");
 
         vetService.save(vet2);
 
-        System.out.println("Icte vsetci do PICE!!! :P");
+        System.out.println("This is spartaaa!!! :P");
 
 
     }
